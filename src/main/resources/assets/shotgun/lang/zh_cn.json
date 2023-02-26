@@ -1,0 +1,10 @@
+{
+    "advancements.story.shotgun_battle_king.description": "拿起霰弹枪，成为喷射战皇",
+    "advancements.story.shotgun_battle_king.title": "喷射战皇",
+    "item.shotgun.shotgun": "霰弹枪",
+    "item.shotgun.grapeshot": "12mm大口径霰弹",
+    "sound.shotgun.can_load": "霰弹枪 : 装填就绪",
+    "sound.shotgun.loaded": "霰弹枪 : 已装填",
+    "sound.shotgun.loading": "霰弹枪 : 装填中",
+    "sound.shotgun.shoot": "霰弹枪 : 射击"
+}

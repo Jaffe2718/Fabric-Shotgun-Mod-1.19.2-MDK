@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ISI",
+        "IGI",
+        "III"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gunpowder"
+        },
+        "I": {
+            "item": "minecraft:iron_nugget"
+        },
+        "S": {
+            "item": "minecraft:gravel"
+        }
+    },
+    "result": {
+        "item": "shotgun:grapeshot",
+        "count": 6
+    }
+}

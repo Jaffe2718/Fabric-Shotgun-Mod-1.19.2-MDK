@@ -1,0 +1,6 @@
+{
+	"parent": "shotgun:custom/shotgun_loading_0",
+	"textures": {
+		"0": "shotgun:item/shotgun_loaded"
+	 }
+}

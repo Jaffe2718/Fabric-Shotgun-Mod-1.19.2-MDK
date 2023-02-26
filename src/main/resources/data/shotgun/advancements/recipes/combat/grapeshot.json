@@ -1,0 +1,73 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_gunpowder": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gunpowder"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_iron_nugget": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_nugget"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_gravel": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gravel"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_shotgun": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "shotgun:shotgun"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "shotgun:grapeshot"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "has_gunpowder",
+            "has_iron_nugget",
+            "has_gravel",
+            "has_shotgun",
+            "has_the_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "shotgun:grapeshot"
+        ]
+    }
+}

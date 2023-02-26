@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "shotgun",
+    "version": "${version}",
+    "name": "Shotgun Mod",
+    "description": "Fabric Shotgun Mod for Minecraft Java Edition 1.19.2",
+    "authors": [
+        "Jaffe2718"
+    ],
+    "contact": {
+        "website": "https://github.com/Jaffe2718",
+        "repo": "https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK",
+        "issues": "https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK/issues"
+    },
+    "license": "GNU GPL 3.0",
+    "icon": "assets/shotgun/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "github.jaffe2718.shotgun.client.ShotgunClient"
+        ],
+        "main": [
+            "github.jaffe2718.shotgun.Shotgun"
+        ]
+    },
+    "mixins": [
+        "shotgun.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.9",
+        "fabric": "*",
+        "minecraft": "1.19.2"
+    }
+}

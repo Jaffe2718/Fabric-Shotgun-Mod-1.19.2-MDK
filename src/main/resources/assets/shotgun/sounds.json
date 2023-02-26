@@ -1,0 +1,37 @@
+{
+    "shotgun_can_load": {
+        "subtitle": "sound.shotgun.can_load",
+        "sounds": [
+            {
+                "name": "shotgun:shotgun_can_load",
+                "stream": true
+            }
+        ]
+    },
+    "shotgun_loaded": {
+        "subtitle": "sound.shotgun.loaded",
+        "sounds": [
+            {
+                "name": "shotgun:shotgun_loaded",
+                "stream": true
+            }
+        ]
+    },
+    "shotgun_loading": {
+        "subtitle": "sound.shotgun.loading",
+        "sounds": [
+            {
+                "name": "shotgun:shotgun_loading",
+                "stream": true
+            }
+        ]
+    },
+    "shotgun_shoot": {
+        "subtitle": "sound.shotgun.shoot",
+        "sounds": [
+            {
+                "name": "shotgun:shotgun_shoot"
+            }
+        ]
+    }
+}

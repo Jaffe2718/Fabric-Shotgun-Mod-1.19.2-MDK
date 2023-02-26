@@ -1,0 +1,10 @@
+{
+    "advancements.story.shotgun_battle_king.description": "Pick up the shotgun and become the king of shotgun war",
+    "advancements.story.shotgun_battle_king.title": "Shotgun Battle King",
+    "item.shotgun.shotgun": "Shotgun",
+    "item.shotgun.grapeshot": "12mm Large-Calibre Grapeshot",
+    "sound.shotgun.can_load": "Shotgun ready to load",
+    "sound.shotgun.loaded": "Shotgun loaded",
+    "sound.shotgun.loading": "Shotgun loading",
+    "sound.shotgun.shoot": "Shotgun shooting"
+}

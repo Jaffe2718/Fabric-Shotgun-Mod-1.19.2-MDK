@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  N",
+        "PII",
+        "P  "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:iron_nugget"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "shotgun:shotgun",
+        "count": 1
+    }
+}
