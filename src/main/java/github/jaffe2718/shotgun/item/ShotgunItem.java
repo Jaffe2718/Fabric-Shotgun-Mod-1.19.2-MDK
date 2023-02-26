@@ -1,7 +1,6 @@
 package github.jaffe2718.shotgun.item;
 
 
-import github.jaffe2718.shotgun.Shotgun;
 import github.jaffe2718.shotgun.entity.GrapeshotEntity;
 import github.jaffe2718.shotgun.init.ItemRegistry;
 import github.jaffe2718.shotgun.init.SoundInit;

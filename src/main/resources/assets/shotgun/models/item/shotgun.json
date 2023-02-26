@@ -1,29 +1,29 @@
 {
-  "parent": "shotgun:custom/shotgun_custom",
-  "overrides": [
-    {
-      "predicate": {
-        "shotgun:load": 0.15
-      },
-      "model": "shotgun:custom/shotgun_loading_0"
-    },
-    {
-      "predicate": {
-        "shotgun:load": 0.6
-      },
-      "model": "shotgun:custom/shotgun_loading_1"
-    },
-    {
-      "predicate": {
-        "shotgun:load": 1.0
-      },
-      "model": "shotgun:custom/shotgun_loading_2"
-    },
-    {
-      "predicate": {
-        "shotgun:loaded": 1
-      },
-      "model": "shotgun:custom/shotgun_loaded"
-    }
-  ]
+    "parent": "shotgun:custom/shotgun_custom",
+    "overrides": [
+        {
+            "predicate": {
+                "shotgun:load": 0.15
+            },
+            "model": "shotgun:custom/shotgun_loading_0"
+        },
+        {
+            "predicate": {
+                "shotgun:load": 0.6
+            },
+            "model": "shotgun:custom/shotgun_loading_1"
+        },
+        {
+            "predicate": {
+                "shotgun:load": 1.0
+            },
+            "model": "shotgun:custom/shotgun_loading_2"
+        },
+        {
+            "predicate": {
+                "shotgun:loaded": 1
+            },
+            "model": "shotgun:custom/shotgun_loaded"
+        }
+    ]
 }

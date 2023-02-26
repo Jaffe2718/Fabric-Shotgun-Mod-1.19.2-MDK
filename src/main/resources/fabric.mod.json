@@ -8,8 +8,8 @@
         "Jaffe2718"
     ],
     "contact": {
-        "website": "https://github.com/Jaffe2718",
-        "repo": "https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK",
+        "homepage": "https://github.com/Jaffe2718",
+        "sources": "https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK",
         "issues": "https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK/issues"
     },
     "license": "GPL-3.0",

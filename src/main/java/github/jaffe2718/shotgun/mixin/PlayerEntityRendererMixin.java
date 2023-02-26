@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(PlayerEntityRenderer.class)
-public abstract class PlayerEntityRendererMixin {
+public abstract class PlayerEntityRendererMixin {  // 用于修改第三人称持枪动作
     @Inject(method = "setModelPose", at = @At("TAIL"))
     private void setModelPose(AbstractClientPlayerEntity player, CallbackInfo ci) {
         PlayerEntityModel playerEntityModel = (PlayerEntityModel)((PlayerEntityRenderer)(Object)this).getModel();
