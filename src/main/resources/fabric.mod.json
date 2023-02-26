@@ -12,7 +12,7 @@
         "repo": "https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK",
         "issues": "https://github.com/Jaffe2718/Fabric-Shotgun-Mod-1.19.2-MDK/issues"
     },
-    "license": "GNU GPL 3.0",
+    "license": "GPL-3.0",
     "icon": "assets/shotgun/icon.png",
     "environment": "*",
     "entrypoints": {
