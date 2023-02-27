@@ -119,10 +119,6 @@ public class ShotgunItem extends CrossbowItem {
 
     @Override
     public void usageTick(World world, LivingEntity user, ItemStack stack, int remainingUseTicks) {
-//        if (user instanceof PlayerEntity player && player.isUsingItem() &&
-//                stack.getItem().equals(this) && player.getItemCooldownManager().isCoolingDown(this)) { // 冷却时期不能用
-//            user.stopUsingItem();
-//        }
         if (remainingUseTicks==getMaxUseTime(stack)) {
             world.playSound(null,
                     user.getX(), user.getEyeY(), user.getZ(),

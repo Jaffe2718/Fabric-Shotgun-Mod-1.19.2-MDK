@@ -30,6 +30,8 @@ by [Jaffe2718](https://github.com/Jaffe2718/)
 > - 需要Fabric API作为前置模组；
 > 
 > - 将`shotgun-1.0.0.jar`放入Minecraft安装位置`mods`文件夹。
+> 
+> **警告：经Minecraft游戏客户端运行测试表命，该模组和`Optifine`模组以及Optifine模组的Fabric环境前置模组`OptiFabric`模组共存运行时，霰弹枪物品的弹药装填动作会受到影响，可能会影响美观，但目前为止不会造成程序运行崩溃。**
 
 ## 玩法说明
 
