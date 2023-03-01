@@ -29,7 +29,7 @@ by [Jaffe2718](https://github.com/Jaffe2718/)
 > 
 > - 需要Fabric API作为前置模组；
 > 
-> - 将`shotgun-1.0.0.jar`放入Minecraft安装位置`mods`文件夹。
+> - 将对应版本的模组JAR文件放入Minecraft安装位置`mods`文件夹。
 
 ## 玩法说明
 
