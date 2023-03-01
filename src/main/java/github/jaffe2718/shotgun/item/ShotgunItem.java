@@ -45,7 +45,7 @@ public class ShotgunItem extends CrossbowItem {
     public static boolean isCharged(ItemStack stack) {
         if (stack.isOf(ItemRegistry.SHOTGUN)) {
             NbtCompound nbtCompound = stack.getNbt();
-            return nbtCompound != null && nbtCompound.getBoolean("Charged");
+            return nbtCompound != null && nbtCompound.getBoolean("IsCharged");
         } else {
             return false;
         }
@@ -54,7 +54,7 @@ public class ShotgunItem extends CrossbowItem {
     public static void setCharged(ItemStack stack, boolean charged) {
         if (stack.isOf(ItemRegistry.SHOTGUN)) {
             NbtCompound nbtCompound = stack.getOrCreateNbt();
-            nbtCompound.putBoolean("Charged", charged);
+            nbtCompound.putBoolean("IsCharged", charged);
         }
     }
 
